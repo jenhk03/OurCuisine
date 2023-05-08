@@ -12,10 +12,10 @@
         android:theme="@style/Theme.OurCuisine"
         tools:targetApi="31">
         <activity
-            android:name=".ChangeActivity"
+            android:name=".Activity.ChangeActivity"
             android:exported="false" />
         <activity
-            android:name=".AddActivity"
+            android:name=".Activity.AddActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.MainActivity"
