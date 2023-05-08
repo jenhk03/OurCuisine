@@ -34,6 +34,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/tv_description"
             android:text="Deskripsi"
-            android:textSize="21sp" />
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="17sp" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>
