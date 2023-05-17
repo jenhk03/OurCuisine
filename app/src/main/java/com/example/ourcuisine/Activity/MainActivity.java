@@ -3,6 +3,7 @@ package com.example.ourcuisine.Activity;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
@@ -38,6 +39,15 @@ public class MainActivity extends AppCompatActivity
         pbCuisine = findViewById(R.id.pb_cuisine);
         lmCuisine = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         rvCuisine.setLayoutManager(lmCuisine);
+        fabAdd.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(new Intent(MainActivity.this, AddActivity.class));
+            }
+        }
+        );
     }
 
     @Override
