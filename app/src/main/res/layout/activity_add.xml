@@ -36,8 +36,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:id="@+id/btn_add"
+        android:id="@+id/btn_save"
         android:layout_marginTop="16dp"
-        android:text="Tambah"
+        android:text="Simpan"
         android:textSize="21sp" />
 </LinearLayout>
